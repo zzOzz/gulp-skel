@@ -1,0 +1,55 @@
+{
+  "name": "gulp-skel",
+  "version": "0.0.0",
+  "homepage": "https://github.com/zzOzz/gulp-skel",
+  "authors": [
+    "Vincent Lombard <vincent.lombard@gmail.com>"
+  ],
+  "description": "revel skeleton with gulp",
+  "main": "gulpfile.babel.js",
+  "moduleType": [
+    "es6",
+    "node"
+  ],
+  "keywords": [
+    "revel",
+    "golang",
+    "gulp",
+    "es6",
+    "gulpjs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha",
+    "normalize-strings": "normalize#~1.0.4",
+    "typeahead.js": "~0.11.1",
+    "json2": "*",
+    "select2": "~4.0.1",
+    "Materialize": "materialize#^0.97.5",
+    "hammerjs": "hammer.js#^2.0.6",
+    "pickadate": "^3.5.6",
+    "jquery-xml2json": "^0.0.8",
+    "sass-mq": "^3.2.6",
+    "jquery-validation": "^1.15.0"
+  },
+  "devDependencies": {
+    "typeahead.js": "~0.11.1",
+    "json2": "*",
+    "select2": "~4.0.1",
+    "Materialize": "materialize#^0.97.5",
+    "hammerjs": "hammer.js#^2.0.6",
+    "pickadate": "^3.5.6"
+  },
+  "overrides": {
+    "BOWER-PACKAGE": {
+      "main": "**/*.js"
+    }
+  }
+}
