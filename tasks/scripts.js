@@ -50,7 +50,7 @@ function buildBundle() {
     .pipe(rev())
     .pipe(gulp.dest(join(dest,'public','js')))
     .pipe(rev.manifest('js-rev-manifest.json',{ merge: true }))
-    .pipe(gulp.dest(join(dest, '..')));
+    .pipe(gulp.dest(join(dest)));
 }
 
 gulp.task('scripts', bundle);

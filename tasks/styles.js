@@ -37,5 +37,5 @@ gulp.task('styles:build', () => {
     .pipe(rev())
     .pipe(gulp.dest(join(dest, 'public','css')))
     .pipe(rev.manifest('css-rev-manifest.json',{ merge: true }))
-    .pipe(gulp.dest(join(dest, 'public','css')));
+    .pipe(gulp.dest(join(dest)));
 });
