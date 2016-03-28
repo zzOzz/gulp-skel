@@ -27,7 +27,7 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "v4.0.0-alpha",
+    "bootstrap-sass": "v3.3.6",
     "normalize-strings": "normalize#~1.0.4",
     "typeahead.js": "~0.11.1",
     "json2": "*",

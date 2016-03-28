@@ -25,8 +25,8 @@ launch gulp
 gulp
 ~~~
 
-sources are located in source folder
-revel app is in revel folder
-build app is in dist folder
-js source is in source/scripts/main.js
-css source is in 
+* sources are located in source folder
+* revel app is in revel folder
+* build app is in dist folder
+* js source is in source/scripts/main.js
+* css source is in source/public/css/main.scss
